@@ -1,0 +1,25 @@
+{
+  "name": "mirror-on-the-wall-try-mirror",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install:browsers": "npx playwright install chromium --with-deps",
+    "dev": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "lint": "eslint .",
+    "show:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empirical-run/mirror-on-the-wall-try-mirror.git"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@empiricalrun/eslint-config": "^0.5.0",
+    "@empiricalrun/playwright-utils": "^0.48.5",
+    "@empiricalrun/typescript-config": "^0.3.0",
+    "@playwright/test": "1.58.2",
+    "@types/node": "^22.3.0"
+  }
+}
